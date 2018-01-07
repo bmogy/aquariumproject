@@ -1,0 +1,47 @@
+/* display OctopusImg begin*/
+@mixin  octoHeader-large{
+	@media (min-width:841px){
+		h1{
+		font-size:4rem;
+		}
+		left:47px;
+		top:30px;
+	}
+}
+@mixin  octoHeader-small{
+	@media (min-width:479px){
+		h1{
+		font-size:3.5rem;
+		}
+		left:30px;
+	}
+}
+	@mixin  octoBtn-medium{
+	@media (min-width:641px){
+		transform:translateY(-15%);
+		font-size:1.3rem;
+			width:180px;
+	
+	}
+}
+@mixin  octoBtn-large{
+	@media (min-width:841px){
+		transform:translateY(-15%);
+		font-size:1.3rem;
+		width:175px;
+		
+		
+	}
+}
+/* display OctupusImg ends*/ 
+/* image gallery begins*/
+@mixin description-block-large{
+	@media (min-width:841px){
+		border-left:1px solid black;
+		border-bottom:1px solid white;
+		height:150px;
+		margin-left:-15px;
+		padding-left:10px;
+	}
+}
+/* image gallery ends*/

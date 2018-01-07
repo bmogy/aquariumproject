@@ -1,0 +1,19 @@
+.octoImg{
+	position:relative; 
+	&_header{
+	
+		position:absolute;
+		top:-5px;
+		left:10px;
+		color:white;
+		h1{
+			font-size:2.5rem;
+			font-weight:600;
+		}
+		
+		@include octoHeader-small;
+		@include octoHeader-large;
+	
+	}
+	
+}

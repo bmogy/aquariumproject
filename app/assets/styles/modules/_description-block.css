@@ -1,0 +1,29 @@
+.description-block{
+
+
+border-bottom:1px solid black;
+padding-bottom:15px;
+
+margin-left:10px; 
+margin-right:10px;
+@include description-block-large;
+&-link{
+	color:$orange;
+	text-decoration:none;
+}
+&-link:hover{
+	text-decoration:none; 
+	color:$orange;
+}
+&-getConnected{
+	margin:0; 
+	padding:0; 
+	height:auto; 
+	border:1px solid white;
+	&-img{
+	width:30px; 
+	height:30px;
+	}
+}
+	
+}

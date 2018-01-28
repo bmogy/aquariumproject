@@ -1,0 +1,58 @@
+.footer{
+	
+	background-color:$purple;
+	color:white;
+	margin:0;
+	padding:0;
+	text-align:center;
+	&-title{
+		padding-top:45px;
+		padding-bottom:40px;
+		margin-left:auto;
+		margin-right:auto;
+		font-size:2.5rem;
+		max-width:740px;
+		min-width:100px;
+	
+		font-font-family:'Open Sans', sans-serif;
+		font-weight:100;
+	}
+	&-acredPartners-block{
+		display:inline-block;
+		border-left:1px solid white;
+		padding-left:20px;
+		padding-right:20px;
+		font-size:1.15rem;
+	
+		&-firstBlock{
+
+		border-left:1px solid $purple;
+		}
+		a{
+			color:white;
+		}
+	}
+		&-lowerLinks{
+		margin-top:20px;
+		&-block{
+			font-size:1.1rem;
+			display:inline-block;
+			margin:0;
+	
+			
+			border-left:1px solid white;
+			padding-left:20px;
+			padding-right:20px;
+			
+			&-removeBorder{
+				border-left:1px solid $purple;
+			}
+			a{
+				text-decoration:none;
+				color:white;
+				
+			}
+		}
+	}
+
+}

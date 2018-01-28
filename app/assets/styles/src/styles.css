@@ -6434,10 +6434,14 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+/*nav bar begins */
+/*nav bar ends */
 /* display OctopusImg begin*/
 /* display OctupusImg ends*/
 /* image gallery begins*/
 /* image gallery ends*/
+/* sponsors begin */
+/* sponsors end */
 .btnbox {
   padding: 10px 20px;
   background-color: #FB8129;
@@ -6463,6 +6467,99 @@ button.close {
   .btnbox-register {
     text-align: center;
     width: auto; }
+
+.headerLinks {
+  height: 60px;
+  background-color: #0C2849; }
+  .headerLinks ul {
+    margin: 0;
+    padding: 0;
+    height: 0; }
+  .headerLinks li {
+    display: table-cell;
+    vertical-align: middle;
+    width: 192px;
+    height: 0; }
+  .headerLinks a {
+    color: white;
+    text-decoration: none; }
+  .headerLinks a:hover {
+    text-decoration: none; }
+
+@media (max-width: 842px) {
+  .navBar-large {
+    display: none; } }
+
+.navBar-large ul {
+  padding: 0;
+  text-align: left;
+  margin: 0; }
+
+.navBar-large li {
+  list-style-type: none;
+  margin: 0;
+  width: 193px;
+  border-right: 1px solid lightgray;
+  display: table-cell;
+  padding: 7px 0 15px 7px;
+  vertical-align: middle; }
+
+.navBar-large li:hover {
+  border-top: 3px solid #FB8129;
+  padding-top: 4px; }
+
+.navBar-large a {
+  font-weight: bold;
+  color: black;
+  height: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none; }
+
+.navBar-large ul li .wrapper {
+  display: none;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 0; }
+
+.navBar-large ul li:hover .wrapper {
+  display: block; }
+
+.navBar-large-collum-list {
+  margin-top: 10px; }
+  .navBar-large-collum-list ul {
+    margin: 0;
+    padding: 0; }
+  .navBar-large-collum-list li {
+    float: left;
+    border: none; }
+  .navBar-large-collum-list li:hover {
+    border: none;
+    padding-top: 7px; }
+  .navBar-large-collum-list a {
+    font-weight: 100;
+    font-size: 1.7rem;
+    color: gray; }
+
+.navBar-large-submenu {
+  max-width: 1025px;
+  min-width: 805px; }
+
+.navBar-large-submenu-picture-blocks {
+  margin-top: 20px;
+  margin-right: 15px;
+  display: inline-block;
+  max-width: 310px;
+  min-width: 10px;
+  height: 300px; }
+  .navBar-large-submenu-picture-blocks-img {
+    margin: 0;
+    width: 100%; }
 
 .octoImg {
   position: relative; }
@@ -6529,3 +6626,67 @@ button.close {
     .description-block-getConnected-img {
       width: 30px;
       height: 30px; }
+
+.sponsors {
+  background-color: #0053A1;
+  text-align: center; }
+  .sponsors-img {
+    width: 80px; }
+  .sponsors-header {
+    color: white;
+    margin-bottom: 10px; }
+  .sponsors-block {
+    margin-bottom: 20px;
+    height: 30px;
+    @inclide sponsorsSmall; }
+    @media (min-width: 1028px) {
+      .sponsors-block {
+        margin-right: 60px;
+        margin-left: 60px;
+        display: inline-block;
+        width: 80px; } }
+  .sponsors-img-homeDepot {
+    width: 35px; }
+  .sponsors-img-southernCompany {
+    width: 110px; }
+
+.footer {
+  background-color: #0C2849;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  .footer-title {
+    padding-top: 45px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    max-width: 740px;
+    min-width: 100px;
+    font-font-family: 'Open Sans', sans-serif;
+    font-weight: 100; }
+  .footer-acredPartners-block {
+    display: inline-block;
+    border-left: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.15rem; }
+    .footer-acredPartners-block-firstBlock {
+      border-left: 1px solid #0C2849; }
+    .footer-acredPartners-block a {
+      color: white; }
+  .footer-lowerLinks {
+    margin-top: 20px; }
+    .footer-lowerLinks-block {
+      font-size: 1.1rem;
+      display: inline-block;
+      margin: 0;
+      border-left: 1px solid white;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .footer-lowerLinks-block-removeBorder {
+        border-left: 1px solid #0C2849; }
+      .footer-lowerLinks-block a {
+        text-decoration: none;
+        color: white; }

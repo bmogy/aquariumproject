@@ -4,8 +4,11 @@
 @import "../../../node_modules/bootstrap/dist/css/bootstrap";
 @import "base/_mixin";
 @import "base/_btn";
-
+@import "modules/headerLinks";
+@import "modules/navBar-large";
 @import "modules/_octopusImg";
 @import "modules/_imgGallery";
 @import "modules/_description-block";
+@import "modules/_sponsors";
+@import "modules/_footer";
 

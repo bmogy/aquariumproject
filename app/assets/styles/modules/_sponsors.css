@@ -1,0 +1,53 @@
+.sponsors{
+	
+	background-color:$blue;
+	text-align:center;
+
+ 
+	
+	
+&-img{
+	
+	width:80px;
+}
+	&-header{
+color:white;
+margin-bottom:10px;		
+
+	}
+	
+	
+	
+	&-block{
+		margin-bottom:20px;
+		height:30px;
+
+	
+		 
+	
+		
+			@inclide sponsorsSmall;
+		@include sponsorsLarge;
+	
+
+		
+	
+	
+		
+			
+	
+		
+			
+	}
+
+		&-img-homeDepot{
+		width:35px; 
+		}
+	
+		&-img-southernCompany{
+		width:110px;
+		}
+	
+	
+}
+	

@@ -1,3 +1,12 @@
+/*nav bar begins */
+@mixin navBar{
+	@media (max-width:842px){
+		display:none;
+	}
+}
+/*nav bar ends */
+
+
 /* display OctopusImg begin*/
 @mixin  octoHeader-large{
 	@media (min-width:841px){
@@ -45,3 +54,21 @@
 	}
 }
 /* image gallery ends*/
+/* sponsors begin */
+@mixin sponsorsLarge{
+	@media (min-width:1028px){
+		margin-right:60px;
+		margin-left:60px;
+		display:inline-block;
+		width:80px;
+	}
+} 
+@mixin sponsorsSmall{
+	@media (min-width:628px){
+		margin-right:20px;
+		margin-left:20px;
+		display:inline-block;
+		width:100px;
+	}
+} 
+/* sponsors end */ 

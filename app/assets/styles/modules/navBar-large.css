@@ -12,10 +12,12 @@
 	
 			list-style-type:none;
 			margin:0;
-			width:193px;
+			width:250px;
 			border-right:1px solid lightgray;
 			display:table-cell;
 			padding:7px 0 15px 7px;
+			border-bottom:1px solid black;
+			
 			
 			
 			
@@ -26,7 +28,9 @@
 	li:hover{
 		border-top:3px solid $orange;
 		padding-top:4px;
-		
+		border-bottom:1px solid white;
+		padding-bottom:14px;
+	
 		
 		
 		
@@ -41,12 +45,13 @@
 		text-decoration:none;		
 	}
 	 ul li .wrapper{
-		 display:none;
+		display:none; 
 		 height:400px;
 		 width:100%;
 		 background-color:white;
 		 position:absolute; 
 		 left:0;
+		 top:121px;
 		 z-index:1;
 		 margin:0;
 		 padding:0;
@@ -88,31 +93,23 @@
 		
 	}
 	&-submenu{
-max-width:1025px;
-min-width:805px;
+	
+	&-img{
+height:auto;
+max-width:30.3%;
+
+margin-top:20px;
+margin-left:20px;
+@include smallDropDown;
+		
+	
+	}	
 		
 	}	
-	&-submenu-picture-blocks{
-		margin-top:20px;
-		margin-right:15px;
-		display:inline-block;
+	
+
 
 	
-	
-	max-width:310px;
-	min-width:10px;
-	height:300px;
-
-	&-img{
-		margin:0;
-		
-	width:100%;
-
-
-			
-	
-	}
-	}		
 			
 	
 	

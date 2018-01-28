@@ -1,3 +1,10 @@
+/*header begins*/
+@mixin header-links{
+	@media (min-width:757px){
+		display:block;
+	}
+}
+/*header ends */ 
 /*nav bar begins */
 @mixin navBar{
 	@media (max-width:842px){
@@ -5,6 +12,14 @@
 	}
 }
 /*nav bar ends */
+/* drop down Menu begins*/
+
+@mixin smallDropDown{
+	@media (max-width:1019px){
+		width:29%;
+	}
+}
+/* drop down Menu ends */
 
 
 /* display OctopusImg begin*/

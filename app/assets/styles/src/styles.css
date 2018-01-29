@@ -6438,6 +6438,8 @@ button.close {
 /*header ends */
 /*nav bar begins */
 /*nav bar ends */
+/* small navbar begins*/
+/* small navbar ends*/
 /* drop down Menu begins*/
 /* drop down Menu ends */
 /* display OctopusImg begin*/
@@ -6505,6 +6507,17 @@ button.close {
     @media (min-width: 757px) {
       .header-smallscreen {
         display: block; } }
+  .header-small-navBar {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background-color: white;
+    width: 30px;
+    height: 30px; }
+    @media (min-width: 842px) {
+      .header-small-navBar {
+        display: none; } }
 
 @media (max-width: 842px) {
   .navBar-large {

@@ -12,6 +12,13 @@
 	}
 }
 /*nav bar ends */
+/* small navbar begins*/
+ @mixin smallMenu{
+	 @media (min-width:842px){
+		 display:none;
+	 }
+ }
+/* small navbar ends*/
 /* drop down Menu begins*/
 
 @mixin smallDropDown{
